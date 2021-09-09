@@ -8,7 +8,3 @@ export default class Undead extends Character {
     this.defence = 25;
   }
 }
-
-const undead1 = new Undead('Rex', 'Undead');
-
-console.log(undead1);

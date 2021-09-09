@@ -8,7 +8,3 @@ export default class Swordsman extends Character {
     this.defence = 10;
   }
 }
-
-const swordsman1 = new Swordsman('Scott', 'Swordsman');
-
-console.log(swordsman1);

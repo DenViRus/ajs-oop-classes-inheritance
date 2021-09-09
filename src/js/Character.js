@@ -15,7 +15,3 @@ export default class Character {
     this.level = 1;
   }
 }
-
-const сadet1 = new Character('Rudy', 'Swordsman');
-
-console.log(сadet1);

@@ -8,7 +8,3 @@ export default class Magician extends Character {
     this.defence = 40;
   }
 }
-
-const magician1 = new Magician('Merlin', 'Magician');
-
-console.log(magician1);

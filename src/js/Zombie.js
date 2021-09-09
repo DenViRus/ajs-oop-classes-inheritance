@@ -4,11 +4,7 @@ export default class Zombie extends Character {
   constructor(name, type) {
     super(name, type);
 
-    this.attack = 10;
-    this.defence = 40;
+    this.attack = 40;
+    this.defence = 10;
   }
 }
-
-const zombie1 = new Zombie('Scum', 'Zombie');
-
-console.log(zombie1);

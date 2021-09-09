@@ -8,7 +8,3 @@ export default class Daemon extends Character {
     this.defence = 40;
   }
 }
-
-const daemon1 = new Daemon('Charles', 'Daemon');
-
-console.log(daemon1);
